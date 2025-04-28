@@ -30,7 +30,7 @@ def style(n: int = 0) -> None:
         print(f'\x1b[{n}m', end='')
 
 def reset() -> None:
-    print('\x1b[0;39;49m')
+    print('\x1b[0;39;49m', end='')
 
 def clear_screen() -> None:
-    print('\x1b[2J\x1b[1;1H')
+    print('\x1b[2J\x1b[1;1H', end='')
